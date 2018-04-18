@@ -51,6 +51,7 @@ body {
   font-family: Shabnam;
   font-size: 1rem;
   font-weight: normal;
+  text-align: right;
   background: #8481EF; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #7780F4, #8481EF); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #8481EF, #8481EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -86,4 +87,15 @@ body {
   url('/static/fonts/Shabnam-Light.woff') format('woff'),
   url('/static/fonts/Shabnam-Light.ttf') format('truetype');
   font-weight: 300;
+}
+
+@media only screen and (max-width: 767px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 412px) {
+  html {
+    font-size: 6px;
+  }
 }
