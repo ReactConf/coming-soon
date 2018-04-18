@@ -1,0 +1,89 @@
+/* minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */
+html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0
+}
+html {
+  font-size: 14px ;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal
+}
+
+ul {
+  list-style: none
+}
+
+button, input, select, textarea {
+  margin: 0
+}
+
+html {
+  box-sizing: border-box
+}
+
+*, *:before, *:after {
+  box-sizing: inherit
+}
+
+img, embed, iframe, object, audio, video {
+  height: auto;
+}
+
+iframe {
+  border: 0
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+td, th {
+  padding: 0;
+  text-align: left
+}
+
+body {
+  direction: rtl;
+  font-family: Shabnam;
+  font-size: 1rem;
+  font-weight: normal;
+  background: #8481EF; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #7780F4, #8481EF); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #8481EF, #8481EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* font face declarations */
+
+@font-face {
+  font-family: Shabnam;
+  src: url('/static/fonts/Shabnam.eot');
+  src: url('/static/fonts/Shabnam.eot?#iefix') format('embedded-opentype'),
+  url('/static/fonts/Shabnam.woff2') format('woff2'),
+  url('/static/fonts/Shabnam.woff') format('woff'),
+  url('/static/fonts/Shabnam.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url('/static/fonts/Shabnam-Bold.eot');
+  src: url('/static/fonts/Shabnam-Bold.eot?#iefix') format('embedded-opentype'),
+  url('/static/fonts/Shabnam-Bold.woff2') format('woff2'),
+  url('/static/fonts/Shabnam-Bold.woff') format('woff'),
+  url('/static/fonts/Shabnam-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url('/static/fonts/Shabnam-Light.eot');
+  src: url('/static/fonts/Shabnam-Light.eot?#iefix') format('embedded-opentype'),
+  url('/static/fonts/Shabnam-Light.woff2') format('woff2'),
+  url('/static/fonts/Shabnam-Light.woff') format('woff'),
+  url('/static/fonts/Shabnam-Light.ttf') format('truetype');
+  font-weight: 300;
+}
