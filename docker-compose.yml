@@ -1,0 +1,26 @@
+version: "2"
+
+services:
+  react:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: react-conf
+    entrypoint: sh entrypoint.sh
+    working_dir: /home/node
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/home/node
+  nginx:
+    restart: always
+    image: webdevops/nginx:alpine
+    ports:
+      - 80:80
+    environment:
+      - WEB_DOCUMENT_INDEX= index.html
+    volumes:
+      - ./dist:/app
+
+
+
