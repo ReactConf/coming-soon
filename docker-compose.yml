@@ -12,15 +12,3 @@ services:
       - 3000:3000
     volumes:
       - .:/home/node
-  nginx:
-    restart: always
-    image: webdevops/nginx:alpine
-    ports:
-      - 80:80
-    environment:
-      - WEB_DOCUMENT_INDEX= index.html
-    volumes:
-      - ./dist:/app
-
-
-
