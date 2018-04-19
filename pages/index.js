@@ -9,10 +9,10 @@ export default class extends React.Component {
         return (
             <Global>
                 <Head>
-                    <title>همایش بزرگ ReactConf</title>
+                    <title>همایش ReactJS در تهران</title>
                 </Head>
                 <div>
-                    <div className="reactConf404Page" data-rtl="ltr">
+                    <div className="reactConf404Page">
                         <div className="reactConf404Artwork">
                             <img alt="#" src="/static/ReactConfTehran.svg"/>
                         </div>

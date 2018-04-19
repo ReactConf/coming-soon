@@ -20,7 +20,6 @@
   -ms-flex-pack: center;
   justify-content: center;
   position: relative;
-  padding: 0 15px;
 
   @media only screen and (max-width: 800px) {
     width: 100%;
@@ -56,6 +55,10 @@
       @media only screen and (max-width: 800px) {
         max-width: 100px;
         width: auto;
+        margin: 0 auto;
+      }
+      @media only screen and (max-width: 412px) {
+        max-width: 200px;
       }
     }
   }

@@ -55,6 +55,8 @@ body {
   background: #8481EF; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #7780F4, #8481EF); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #8481EF, #8481EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  overflow-x:hidden;
+  margin: 0 15px;
 }
 
 /* font face declarations */
@@ -96,6 +98,6 @@ body {
 }
 @media only screen and (max-width: 412px) {
   html {
-    font-size: 6px;
+    font-size: 9px;
   }
 }
